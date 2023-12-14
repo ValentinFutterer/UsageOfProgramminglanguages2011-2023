@@ -4,7 +4,34 @@ This repository was created during the Programming Language Ecosystem project fr
 
 It contains a python script, that was used to extract the knowledge on how the usage of programming Languages in the last 12 years shifted. It uses 3 datasets as inputs, they are stored in data. These datasets are not uniform and need a lot of personalized data extraction, therefore the script is most likely not reusable. For example, the PYPL_survey_2004-2023 is a js file.
 
-After extracting the data, the script generates the csv file usage_of_programming_languages_2011-2023 in the results folder. This file contains a column for the year and then many columns for the different languages, denoting their usage in percent. Every language mentioned in the three datasets is going to be present in this csv file. Additionally, the script generates a vertical barchart and a piechart for each year plus a line graph for each language over the whole timespan as png's. if you need different charts, you are free to extend it.
+After extracting the data, the script generates the csv file usage_of_programming_languages_2011-2023 in the results folder. This file contains a column for the year and then many columns for the different languages, denoting their usage in percent. Additionally, the script generates a vertical barchart and a piechart for each year plus a line graph for each language over the whole timespan as png's. if you need different charts, you are free to extend it.
+
+The languages that are considered in this project can be seen here:
+
+- Python
+- C
+- C++
+- Java
+- C#
+- JavaScript
+- PHP
+- SQL
+- Assembly
+- Scratch
+- Fortran
+- Go
+- Kotlin
+- Delphi
+- Swift
+- Rust
+- Ruby
+- R
+- COBOL
+- F#
+- Perl
+- TypeScript
+- Haskell
+- Scala
 
 ## Usage
 
